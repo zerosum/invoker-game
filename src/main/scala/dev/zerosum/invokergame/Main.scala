@@ -8,6 +8,7 @@ import akka.{Done, NotUsed}
 import scala.concurrent.Future
 
 object Main extends App {
+
   implicit val system: ActorSystem = ActorSystem("InvokerGame")
 
   val source: Source[Char, NotUsed] = Source("qwwrdwrd")
