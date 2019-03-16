@@ -1,7 +1,7 @@
 package dev.zerosum.invokergame.actors
 
 import akka.actor.Actor
-import dev.zerosum.invokergame.{Element, Elements, Spell, Void => V}
+import dev.zerosum.invokergame.{Element, Elements, Quas, Spell, Void => V}
 
 class Invoker extends Actor {
 
